@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter" , sans-serif;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100px;
+    height: 100%;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 14px;
+    padding: 0px 450px;
+    align-items: center;
+}
+
+nav .Image{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav .Image a{
+    color: black;
+    font-weight: bold;
+}
+
+nav .nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+   
+}
+
+nav .nav-links ul li a{
+    color: #606060;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links ul li a:hover{
+    color: black;
+}
+
+nav .btn button{
+    padding: 5px 10px;
+    background-color: black;
+    color: #eee;
+    border-radius: 8px;
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+nav .btn button i{
+    font-size: 20px;
+}
+
+nav .btn button:hover{
+    background-color: #eee;
+    color: black;
+}
+
+.Fullstack-Side{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    display: flex;
+    padding: 0px 55px;
+    gap: 10px;
+}
+
+.Fullstack-Side .Hero img{
+    width: 520px;
+    border-radius: 20px;
+}
+
+.Fullstack-Side .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Fullstack-Side .left-side h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.Fullstack-Side .left-side .inter p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #7d7571;
+}
+
+.Fullstack-Side .left-side .buttons .button{
+    gap: 20px;
+    display: flex;
+    margin-bottom: 120px;  
+}
+
+.Fullstack-Side .left-side .buttons .button .Hire{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    gap: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.Fullstack-Side .left-side .buttons .button .Hire i{
+    font-size: 22px;
+}
+
+.Fullstack-Side .left-side .buttons .button .Git{
+    display: flex;
+    align-items: center;
+    border: 1px solid #a1a1a1;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 5px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.Fullstack-Side .left-side .buttons .button .Git i{
+    font-size: 22px;
+}
+
+.Fullstack-Side .left-side .buttons .button .Git:hover{
+    color: #eee;
+    background-color: black;
+}
+
+.Fullstack-Side .left-side .buttons .button .Hire:hover{
+    color: black;
+    background-color: #eee;
+}
+
+.Fullstack-Side .Other-links p{
+    color: #a1a1a1;
+    margin-bottom: 5px;
+}
+
+.Fullstack-Side .Other-links .Social-Links{
+    cursor: pointer;
+    padding: 5px ;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.Web-Development-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    padding: 0px 300px;
+}
+
+.Web-Development-side p{
+    color: #a1a1a1;
+    margin-bottom: 20px;
+}
+
+.Web-Development-side h2{
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.Web-Development-side .items .item{
+    cursor: pointer;
+}
+
+.Web-Development-side .items {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.Web-Development-side .items img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Web-Development-side .items h3{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.Web-Development-side .items p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.Troubleshoot-Side{
+    margin: 80px  30px  0px 30px;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: #1f1f1f;
+}
+
+.Troubleshoot-Side .Tur-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    color: #eee;
+}
+
+.Troubleshoot-Side .Tur-Content .Troubleshooticon{
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid #a1a1a1;
+    border-radius: 15px;
+    font-weight: 300;
+    color: #a6b0b9;
+}
+
+.Troubleshoot-Side .Tur-Content h2{
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.Troubleshoot-Side .Tur-Content p{
+    color: #a1a1a1;
+}
+
+.Troubleshoot-Side .Tur-Content button{
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.Troubleshoot-Side .Tur-Content button p{
+    color: #1f1f1f;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Troubleshoot-Side .Tur-Content button i{
+    font-size: 15px;
+}
+
+.Troubleshoot-Side .Social-items {
+    margin-top: 60px;
+}
+
+.Troubleshoot-Side .Social-items .Items{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Troubleshoot-Side .Social-items .Items .Item{
+    display: flex;
+    cursor: pointer;
+    padding: 30px 20px;
+    background-color: #262626;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #a1a1a1;
+    border-radius: 15px;
+}
+
+.Troubleshoot-Side .Social-items .Items .Item p{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: #a1a1a1;
+}
+
+.Troubleshoot-Side .Social-items .Items .Item h3{
+    color: #eee;
+    font-weight: 500;
+}
+
+.Troubleshoot-Side .Social-items .Items .Item i{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    border-radius: 10px;
+    border: 1px solid #a1a1a1;
+    color: #eee;
+    font-size: 25px;
+}
+
+
+.Troubleshoot-Side .Social-items .Items .Item span{
+    margin-bottom: 10px;
+}
+
+.Wroking{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 60px 0px 60px;
+}
+
+.Wroking h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Wroking .Contact {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.Wroking .Contact .Work{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 50%;
+    padding: 20px;
+    border-left: #dedede 1px solid;
+}
+
+.Wroking .Contact .Call {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 50%;
+    padding: 20px;
+    border-left: #dedede 1px solid;
+}
+
+
+.Wroking .Contact p{
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+.Wroking .Contact button{
+    padding: 10px 20px;
+    background-color: black;
+    color: #eee;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    border-radius: 15px 15px 0px 0px;
+    padding: 30px;
+    margin: 100px 0px 0px 0px ;
+}
+.footer .Copyrights{
+    display: flex;
+    gap: 20px;
+}
+.footer .Copyrights a{
+    font-size: 10px;
+    color: #464749;
+}
