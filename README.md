@@ -1,5 +1,5 @@
 Hello Guys , <br> 
-this is my mini project from ASMR PROG you watch his vedio in youtube channel <br>  
+this is my mini project from ASMR PROG you can watch his vedio in youtube channel <br>  
 COPYRIGHT TRUE (just for training) <br> 
 .......................................................<br>
 Screen Shot ; 
